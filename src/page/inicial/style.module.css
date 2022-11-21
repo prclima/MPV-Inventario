@@ -1,0 +1,155 @@
+.container{
+   background-color: black;
+   width: 700px;
+   height: 400px;
+   grid-area: 9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .bntIni {
+  margin-left: 10%;
+  padding-top: 10%;
+  margin-top: 5px;
+    color: rgb(13, 13, 13); 
+    background: white; 
+    border: 3px solid #011afe; 
+    min-height: 48px; 
+    padding: 12px 34px; 
+    border-radius: 20px; 
+    font-weight: 600; 
+    font-family: plex-sans,sans-serif; 
+    font-size: 16px; 
+    line-height: 24px; 
+    margin: 0; 
+    box-sizing: border-box; 
+   
+
+    } 
+    
+
+.container {
+  
+  height: 340px;
+width: 730px;
+margin: 0 auto 30px;
+padding: 30px;
+background: #fff;
+justify-content: flex-start;
+align-items: flex-start;
+align-content: stretch;
+border-radius: 50px;
+}
+
+.bodyhome {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  min-height: 100vh;
+background: linear-gradient(180deg,#011afe,#e6e5e8);
+justify-content: center;
+align-items: center;
+}
+
+.container {
+ 
+    width: 95%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #ffffff;
+ }
+ 
+ .title {
+    position: relative;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #fff;
+    letter-spacing: 4px;
+    z-index: 1;
+ }
+ 
+ .title:before,
+ .title:after {
+    display: block;
+    content: attr(data);
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.8;
+ }
+ 
+ .title:before {
+    animation: title-color 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) both infinite;
+    color: #de780a;
+    z-index: -1;
+ }
+ 
+ .title:after {
+    animation: title-color 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) reverse both infinite;
+    color: #d9c722;
+    z-index: -2;
+ }
+ 
+ @keyframes title-color {
+    0% {
+       transform: translate(0);
+    }
+ 
+    20% {
+       transform: translate(-3px, 3px);
+    }
+ 
+    40% {
+       transform: translate(-3px, -3px);
+    }
+ 
+    60% {
+       transform: translate(3px, 3px);
+    }
+ 
+    80% {
+       transform: translate(3px, -3px);
+    }
+ 
+    to {
+       transform: translate(0);
+    }
+ } */

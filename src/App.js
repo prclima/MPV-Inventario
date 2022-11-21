@@ -1,23 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { Routes, Route } from "react-router-dom";
+import Exibir from "./page/exibir/exibir";
+import Cadastro from "./page/cadastro/cadastro";
+import Inicial from "./page/inicial/inicial";
+import {Toaster} from 'react-hot-toast'
+import Alterar from "./page/alterar/alterar"
+import Editar from "./page/editar/editar"
+
 
 function App() {
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+<div> <Toaster/>
+    <Routes>
+    
+      <Route path="/" element={<Inicial />} />
+      <Route path="/exibir" element={<Exibir />} />
+      <Route path="/cadastro" element={<Cadastro />}/>
+      <Route path="/cadastro/alterar/:id" element={<Alterar/>}/>
+      <Route path="/editar/:id" element={<Editar />}/>
+       
+    </Routes>
     </div>
   );
 }
