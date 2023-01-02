@@ -1,80 +1,70 @@
-@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900');
-@import url('https://fonts.googleapis.com/css?family=Raleway:200,300,400,500');
-/* $orange: #F36A63;
-$grey: #625F63; */
-body{
-  font-family: 'Lato', sans-serif;
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400,700,900");
+@import url("https://fonts.googleapis.com/css?family=Raleway:200,300,400,500");
+
+body {
+  font-family: "Lato", sans-serif;
 }
 
+.container {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 
-.formulario{
-  position: absolute;
-  top: center;
-  left: 40%;
-  width: 400px;
+.formulario {
+  width: 300px;
   padding: 10px;
   border: solid #0f64dc 1px;
   border-radius: 15px;
   font-family: sans-serif;
-  
- 
 }
 
 .input {
-    position: relative;
-    padding: 1px 0;
-    font-size: 13px;
-    color: rgb(0, 0, 0);
-    width: 50%;
-    margin-left: 20px;
-    border-radius: 10px;
-    border: solid px black;
-    background-color: #e8eeef;
-    /* box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset; */
-
+  position: relative;
+  padding: 1px 0;
+  font-size: 13px;
+  color: rgb(0, 0, 0);
+  width: 50%;
+  margin-left: 20px;
+  border-radius: 10px;
+  border: solid px black;
+  background-color: #e8eeef;
 }
 
-.labelInp{
-    margin-left: 7%;
-    width: 30%;
-    padding: 1px 0;
-    font-size: 15px;
-    color: #000000;
-    margin-bottom: 5px;
-    border: none;
-    border-bottom: 1px solid #384047;
-    
-    
+.labelInp {
+  margin-left: 7%;
+  width: 30%;
+  padding: 1px 0;
+  font-size: 15px;
+  color: #000000;
+  margin-bottom: 5px;
+  border: none;
+  border-bottom: 1px solid #384047;
 }
 .cabecalho {
-    font-size: 48px;
+  font-size: 48px;
   color: #0b0d0d;
   padding: 2px 0 10px 0;
-  
   font-weight: bold;
   text-align: center;
   padding-bottom: 30px;
 }
 
-
 .bntCadastro {
-    margin-top: 5px;
-    width: 130px;
-    height: 35px;
-    border-radius: 10px;
-    justify-self: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    transition: .3s ease;
-   
-    
-}
-.btnConfirm{
+  margin-top: 5px;
+  width: 130px;
+  height: 35px;
+  border-radius: 10px;
+  justify-self: center;
   display: flex;
-  margin-left: 10%;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: 0.3s ease;
 }
-
-
-
+.btnConfirm {
+  display: flex;
+  margin-left: 20%;
+}

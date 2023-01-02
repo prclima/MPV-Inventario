@@ -1,42 +1,32 @@
-
-
-
 import style from "./style.module.css";
-import {Link} from 'react-router-dom'
-import Button from "react-bootstrap/Button";
-import capa from "../../images/capa.jpg"
-
-
+import { Link } from "react-router-dom";
+import { Button } from "@chakra-ui/react";
+import capa from "../../images/capa2.jpg";
 
 function Inicial() {
-
-
-
   return (
-   <>
-   <div className={style.bodyhome}>
-   <div className={style.container}>
-   <h1>Cansado de se perder nas contas?</h1>
+    <>
+      <div className={style.container}>
 
-      <div className={style.bntInicio}>
-      <Link to="/cadastro"><button className={style.bntIni}> Cadastrar Produtos</button></Link>
-      <Link to="/exibir"><button className={style.bntIni}>Lista de Produtos Cadastrados</button></Link>
-      </div>
-      </div>
+        <img src={capa} alt="erro" />
+
+        <div className={style.buttons}>
+        <div className={style.info}>
+          <Link to="/cadastro">
+            <Button size="lg" colorScheme="whatsapp" className={style.bntIni}>
+              Cadastrar Produtos
+            </Button>
+          </Link>
+          <Link to="/exibir">
+            <Button size="lg" colorScheme="yellow" className={style.bntIni}>
+              Lista de Produtos Cadastrados
+            </Button>
+          </Link>
+          </div>
+        </div>
       </div>
     </>
   );
 }
 
 export default Inicial;
-
-
-
-
-
-
-
-
-
-
-
